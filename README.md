@@ -28,6 +28,7 @@ O Zelo nasceu de uma necessidade real. Cada decisão de design tem uma razão fu
 </p>
 
 ---
+
 ### Sistema de Temas
 
 <p align="center">
@@ -37,6 +38,7 @@ O Zelo nasceu de uma necessidade real. Cada decisão de design tem uma razão fu
 </p>
 
 *Modo Sereno · Modo Claro · Modo Escuro — o tema acompanha o contexto do cuidador.*
+
 ---
 
 ## Decisões Técnicas
@@ -68,7 +70,7 @@ O estado global da aplicação — perfil do cuidador, perfil do bebê, preferê
 
 - Fundo creme (não branco) para reduzir fadiga ocular em ambientes escuros
 - Tipografia generosa e botões grandes — operáveis com uma mão
-- Saudações dinâmicas na home ("Respire fundo. Você é o porto seguro da Isabela.") — presença emocional que outros apps ignoram
+- Saudações dinâmicas na home (*"Respire fundo. Você é o porto seguro da Isabela."*) — presença emocional que outros apps ignoram
 - Timestamps relativos ("há 16h") em vez de horários absolutos — informação que o cérebro cansado processa mais rápido
 
 ---
@@ -90,16 +92,16 @@ O estado global da aplicação — perfil do cuidador, perfil do bebê, preferê
 ```
 lib/
 ├── models/
-│   └── record.dart          # Modelo de dados dos registros
+│   └── record.dart          # modelo dos registros
 ├── providers/
-│   └── app_provider.dart    # Estado global da aplicação
+│   └── app_provider.dart    # estado global
 ├── screens/
-│   ├── home_screen.dart     # Dashboard principal
-│   ├── record_screen.dart   # Registro de atividades
-│   ├── history_screen.dart  # Histórico e timeline
+│   ├── home_screen.dart     # dashboard principal
+│   ├── record_screen.dart   # registro de atividades
+│   ├── history_screen.dart  # histórico e timeline
 │   └── about_screen.dart
-├── widgets/                 # Componentes reutilizáveis
-├── theme/                   # Sistema de design e temas
+├── widgets/                 # componentes reutilizáveis
+├── theme/                   # sistema de design e temas
 └── utils/
 ```
 
@@ -113,7 +115,7 @@ Os arquivos [`lib/models/record.dart`](lib/models/record.dart) e [`lib/providers
 
 ## Status
 
-O Zelo está em desenvolvimento ativo. A versão atual roda em Android.
+O Zelo está em desenvolvimento ativo. A versão atual roda em Android.  
 Publicação nas lojas está planejada para quando o produto atingir o nível de polimento que a proposta exige — não antes.
 
 ---
@@ -122,4 +124,8 @@ Publicação nas lojas está planejada para quando o produto atingir o nível de
 
 **Lucas Duarte Marques** — Desenvolvedor Full Stack com foco em sistemas críticos e experiências de baixo esforço cognitivo.
 
-[codedwithlucas.pages.dev](https://codedwithlucas.pages.dev) · [LinkedIn](https://linkedin.com/in/codedwithlucas) · [GitHub](https://github.com/codedwithlucas)
+[Portfolio](https://codedwithlucas.pages.dev) · [LinkedIn](https://linkedin.com/in/codedwithlucas) · [GitHub](https://github.com/codedwithlucas)
+
+---
+
+*Feito por um pai. Para pais.*
